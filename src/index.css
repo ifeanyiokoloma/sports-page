@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand {
+  font-family: Tangerine !important;
+  font-size: 2rem !important;
+}
+
+.yunik {
+  color: black;
+}
+
+.stars {
+  color: white;
+}
+
+.nav-links {
+  font-family: lato !important;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "slabo 27px" !important;
+  font-weight: bolder;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
