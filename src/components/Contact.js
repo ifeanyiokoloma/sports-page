@@ -19,11 +19,14 @@ const Contact = () => {
               sx={{
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <Typography variant="subtitle2" component="h3">
+              <Typography
+                sx={{ alignSelf: "flex-start" }}
+                variant="subtitle2"
+                component="h3"
+              >
                 Telephone
               </Typography>
               <Typography
@@ -47,7 +50,9 @@ const Contact = () => {
               </Typography>
             </StyledCard>
 
-            <StyledCard sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+            <StyledCard
+              sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+            >
               <Typography variant="subtitle2" component="h3">
                 Send Us Email
               </Typography>
