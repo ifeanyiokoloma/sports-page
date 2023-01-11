@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import StyledFooter from "../style/StyledFooter";
 
 const Footer = () => {
   return (
-    <footer>
-      Footer
-    </footer>
+    <StyledFooter>
+      <small>&copy; 2022 Yunikstarz. All Rights Reserved.</small>
+    </StyledFooter>
   );
-}
+};
 
-export default Footer
+export default Footer;

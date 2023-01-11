@@ -6,7 +6,6 @@ const StyledHero = styled.section`
   display: flex;
   flex-direction: column;
   color: white;
-  background: #ccccff;
 
   & > *:first-child {
     height: 65vh;
@@ -36,7 +35,7 @@ const StyledHero = styled.section`
     }
 
     .yunikstarz {
-      font-size: 3rem !important;
+      font-size: 3rem;
     }
 
     .welcome {
@@ -44,7 +43,7 @@ const StyledHero = styled.section`
     }
 
     p {
-      font-size: .8rem;
+      font-size: 0.8rem;
       font-weight: lighter;
       margin: auto;
     }
@@ -54,6 +53,7 @@ const StyledHero = styled.section`
     & > *:first-child {
       height: 75vh;
     }
+  }
 
   @media (min-width: 500px) {
     flex-direction: row;
@@ -63,20 +63,35 @@ const StyledHero = styled.section`
       height: 100vh;
     }
 
+    header {
+      .yunikstarz {
+        font-size: 3.6rem;
+      }
+
+      .welcome {
+        font-size: 2rem;
+      }
+    }
+  }
+
   @media (min-width: 720px) {
-    .yunikstarz {
-      font-size: 4rem !important;
+    header {
+      .yunikstarz {
+        font-size: 4.5rem;
+      }
+
+      .welcome {
+        font-size: 2rem;
+      }
     }
 
     & > * {
       flex-basis: 50%;
     }
 
-    .welcome {
-      font-size: 2rem;
+    p {
+      max-width: 400px;
     }
-
-    p {max-width: 400px;}
   }
 `;
 

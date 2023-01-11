@@ -16,7 +16,12 @@ const Contact = () => {
 
           <StyledGrid>
             <StyledCard
-              sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
               <Typography variant="subtitle2" component="h3">
                 Telephone
@@ -42,14 +47,14 @@ const Contact = () => {
               </Typography>
             </StyledCard>
 
-            <StyledCard
-              sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-            >
+            <StyledCard sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <Typography variant="subtitle2" component="h3">
                 Send Us Email
               </Typography>
-              <TextField id="fname" label="First Name" variant="filled" />
-              <TextField id="lname" label="Last Name" variant="filled" />
+              <div style={{ display: "flex", gap: "1rem" }}>
+                <TextField id="fname" label="First Name" variant="filled" />
+                <TextField id="lname" label="Last Name" variant="filled" />
+              </div>
               <TextField id="tel" label="Telephone" variant="filled" />
               <TextField
                 id="msg"
