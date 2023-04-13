@@ -58,8 +58,18 @@ const Contact = () => {
                 Send Us Email
               </Typography>
               <div style={{ display: "flex", gap: "1rem" }}>
-                <TextField id="fname" label="First Name" variant="filled" />
-                <TextField id="lname" label="Last Name" variant="filled" />
+                <TextField
+                  sx={{ flexBasis: "50%" }}
+                  id="fname"
+                  label="First Name"
+                  variant="filled"
+                />
+                <TextField
+                  sx={{ flexBasis: "50%" }}
+                  id="lname"
+                  label="Last Name"
+                  variant="filled"
+                />
               </div>
               <TextField id="tel" label="Telephone" variant="filled" />
               <TextField
