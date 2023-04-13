@@ -4,13 +4,14 @@ import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledList from "../style/StyledList";
 import StyledArticle from "../style/StyledArticle";
+import Image from "./Image";
 
 const Draft = () => {
   return (
     <StyledContainer id="draft">
       <StyledGrid>
         <Card>
-          <img src="/images/trophy.jpg" alt="trophy" />
+          <Image imageName="draft/trophy_lgtkr7" alt="trophy" />
         </Card>
         <div>
           <StyledArticle>

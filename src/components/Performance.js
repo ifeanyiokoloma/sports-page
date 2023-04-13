@@ -5,6 +5,7 @@ import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
 import Background from "../style/Background";
 import Gaps from "../style/Gaps";
+import Image from "./Image";
 
 const Performance = () => {
   return (
@@ -27,7 +28,7 @@ const Performance = () => {
               </Typography>
             </StyledArticle>
             <Card>
-              <img src="/images/graph.jpg" alt="graph" />
+              <Image imageName="performance/graph_rgp5g7" alt="graph" />
             </Card>
           </Gaps>
           <section>

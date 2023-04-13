@@ -3,13 +3,14 @@ import React from "react";
 import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
+import Image from "./Image";
 
 const Career = () => {
   return (
     <StyledContainer id="career">
       <StyledGrid>
         <Card>
-          <img src="/images/career.jpg" alt="career" />
+          <Image imageName="career/career_ikjblq" alt="career" />
         </Card>
         <StyledArticle>
           <Typography variant="h4" component="h2">

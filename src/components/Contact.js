@@ -20,10 +20,11 @@ const Contact = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                justifyContent: "center",
               }}
             >
               <Typography
-                sx={{ alignSelf: "flex-start" }}
+                // sx={{ alignSelf: "flex-start" }}
                 variant="subtitle2"
                 component="h3"
               >

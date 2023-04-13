@@ -4,6 +4,7 @@ import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
 import Background from "../style/Background";
+import Image from "./Image";
 
 const Marketing = () => {
   return (
@@ -32,7 +33,7 @@ const Marketing = () => {
             </Typography>
           </StyledArticle>
           <Card>
-            <img src="/images/footballer.jpg" alt="graph" />
+            <Image imageName="marketing/footballer_orhska" alt="football" />
           </Card>
         </StyledGrid>
       </StyledContainer>

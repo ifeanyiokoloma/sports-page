@@ -3,13 +3,14 @@ import { Container } from "@mui/system";
 import React from "react";
 import StyledHero from "../style/StyledHero";
 import Background from "../style/Background";
+import Image from "./Image";
 
 const Hero = () => {
   return (
     <Background>
       <StyledHero id="home">
         <div>
-          <img src="/images/hero/footballer.png" alt="football" />
+          <Image imageName="hero/footballer_l7oveg" alt="footballer" />
         </div>
 
         <Container>

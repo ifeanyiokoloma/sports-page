@@ -4,6 +4,7 @@ import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
 import Background from "../style/Background";
+import Image from "./Image";
 
 const Contracts = () => {
   return (
@@ -35,7 +36,7 @@ const Contracts = () => {
             </Typography>
           </StyledArticle>
           <Card>
-            <img src="/images/contract.jpg" alt="contract" />
+            <Image imageName="contract/contract_bfiwom" alt="contract" />
           </Card>
         </StyledGrid>
       </StyledContainer>

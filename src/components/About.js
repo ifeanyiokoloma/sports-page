@@ -3,6 +3,7 @@ import React from "react";
 import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
+import Image from "./Image";
 
 const About = () => {
   return (
@@ -44,7 +45,7 @@ const About = () => {
         </StyledArticle>
 
         <Card>
-          <img src="/images/about/about.jpg" alt="about" />
+          <Image imageName="about/about_flad0w.jpg" alt="about" />
         </Card>
       </StyledGrid>
     </StyledContainer>
