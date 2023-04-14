@@ -33,7 +33,7 @@ const Marketing = () => {
             </Typography>
           </StyledArticle>
           <Card>
-            <Image imageName="marketing/footballer_orhska" alt="football" />
+            <Image imageName="marketing/footballer_orhska.jpg" alt="football" />
           </Card>
         </StyledGrid>
       </StyledContainer>

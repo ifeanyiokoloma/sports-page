@@ -36,7 +36,7 @@ const Contracts = () => {
             </Typography>
           </StyledArticle>
           <Card>
-            <Image imageName="contract/contract_bfiwom" alt="contract" />
+            <Image imageName="contract/contract_bfiwom.jpg" alt="contract" />
           </Card>
         </StyledGrid>
       </StyledContainer>

@@ -28,7 +28,7 @@ const Performance = () => {
               </Typography>
             </StyledArticle>
             <Card>
-              <Image imageName="performance/graph_rgp5g7" alt="graph" />
+              <Image imageName="performance/graph_rgp5g7.jpg" alt="graph" />
             </Card>
           </Gaps>
           <section>

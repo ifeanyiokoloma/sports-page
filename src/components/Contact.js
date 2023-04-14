@@ -23,22 +23,17 @@ const Contact = () => {
                 justifyContent: "center",
               }}
             >
-              <Typography
-                // sx={{ alignSelf: "flex-start" }}
-                variant="subtitle2"
-                component="h3"
-              >
+              <Typography variant="subtitle2" component="h3">
                 Telephone
               </Typography>
               <Typography
-                color="primary"
                 sx={{ fontWeight: "bold" }}
                 variant="h5"
+                component="p"
               >
                 <a href="tel:+2347065370113">+234 706 537 0113</a>
               </Typography>
               <Typography
-                color="primary"
                 sx={{ fontWeight: "bold" }}
                 variant="h5"
                 component="p"

@@ -10,7 +10,7 @@ const Career = () => {
     <StyledContainer id="career">
       <StyledGrid>
         <Card>
-          <Image imageName="career/career_ikjblq" alt="career" />
+          <Image imageName="career/career_ikjblq.jpg" alt="career" />
         </Card>
         <StyledArticle>
           <Typography variant="h4" component="h2">

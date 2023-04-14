@@ -11,7 +11,7 @@ const Draft = () => {
     <StyledContainer id="draft">
       <StyledGrid>
         <Card>
-          <Image imageName="draft/trophy_lgtkr7" alt="trophy" />
+          <Image imageName="draft/trophy_lgtkr7.jpg" alt="trophy" />
         </Card>
         <div>
           <StyledArticle>
