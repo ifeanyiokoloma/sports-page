@@ -24,6 +24,7 @@ const Image = ({ className, alt, style, imageName, width, height }) => {
   if (height || width) {
     myImage.resize(fill().width(width).height(height).gravity(autoGravity()));
   }
+  
   myImage.resize(fill().gravity(autoGravity())).format("webp");
 
   // The URL of the image is: https://res.cloudinary.com/demo/image/upload/sample
