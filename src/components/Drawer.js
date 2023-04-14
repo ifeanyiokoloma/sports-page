@@ -22,12 +22,12 @@ const MobileDrawer = () => {
       <Divider />
       <List>
         {navLinks.map((link) => (
-          <>
-            <ListItem key={link.name} disablePadding>
+          <Box key={link.name}>
+            <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "right" }}>
                 <ListItemText
                   primary={
-                    <a class="nav-links" href={`#${link.link}`}>
+                    <a className="nav-links" href={`#${link.link}`}>
                       {link.name}
                     </a>
                   }
@@ -35,10 +35,9 @@ const MobileDrawer = () => {
               </ListItemButton>
             </ListItem>
             <Divider />
-          </>
+          </Box>
         ))}
       </List>
-      
     </Box>
   );
 };

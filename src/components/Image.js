@@ -9,7 +9,7 @@ import { Cloudinary } from "@cloudinary/url-gen";
 import { fill } from "@cloudinary/url-gen/actions/resize";
 import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
 
-const Image = ({ className, alt, style, imageName, width, height }) => {
+const Image = ({ className, alt, style, imageName, width, height, format }) => {
   // Create a Cloudinary instance and set your cloud name.
   const cld = new Cloudinary({
     cloud: {
@@ -24,12 +24,9 @@ const Image = ({ className, alt, style, imageName, width, height }) => {
   if (height || width) {
     myImage.resize(fill().width(width).height(height).gravity(autoGravity()));
   }
-  
-  myImage.resize(fill().gravity(autoGravity())).format("webp");
 
-  // The URL of the image is: https://res.cloudinary.com/demo/image/upload/sample
+  myImage.resize(fill().gravity(autoGravity())).format(format || "webp");
 
-  // Render the image in a React component.
   return (
     <>
       <AdvancedImage

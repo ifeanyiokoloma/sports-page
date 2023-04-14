@@ -10,7 +10,7 @@ const Hero = () => {
     <Background>
       <StyledHero id="home">
         <div>
-          <Image imageName="hero/footballer_l7oveg" alt="footballer" />
+          <Image imageName="hero/footballer_l7oveg.png" alt="footballer" format="png" />
         </div>
 
         <Container>

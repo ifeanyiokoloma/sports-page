@@ -34,9 +34,9 @@ const Navbar = () => {
             className="brand"
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1 }}
+            sx={{ bgcolor: "black", width: "fit-content", px: "1rem", borderRadius: "10px" }}
           >
-            <span className="yunik">Yunik</span><span className="stars">starz</span>
+            <span className="yunik">Yunik</span><span className="stars" style={{}}>starz</span>
           </Typography>
 
           <Box component="nav">

@@ -41,6 +41,7 @@ const Contact = () => {
                 color="primary"
                 sx={{ fontWeight: "bold" }}
                 variant="h5"
+                component="p"
               >
                 <a
                   href="tel:+2347059885052
