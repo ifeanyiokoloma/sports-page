@@ -3,12 +3,11 @@ import React from "react";
 import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
-import Background from "../style/Background";
 import Image from "./Image";
 
 const Contracts = () => {
   return (
-    <Background>
+
       <StyledContainer id="contract">
         <StyledGrid>
           <StyledArticle>
@@ -40,7 +39,6 @@ const Contracts = () => {
           </Card>
         </StyledGrid>
       </StyledContainer>
-    </Background>
   );
 };
 

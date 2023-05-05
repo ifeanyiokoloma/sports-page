@@ -1,7 +1,16 @@
-import styled from "styled-components";
+import { Box } from "@mui/material";
+import React from "react";
 
-const Background = styled.div`
-  background: #ccccff;
-`;
+const Background = ({ children }) => {
+  return (
+    <Box
+      sx={{
+        backgroundColor: "secondary.main",
+      }}
+    >
+      {children}
+    </Box>
+  );
+};
 
 export default Background;

@@ -1,7 +1,7 @@
 import React from "react";
 import {
   AdvancedImage,
-  accessibility,
+  // accessibility,
   placeholder,
   responsive,
 } from "@cloudinary/react";
@@ -36,7 +36,7 @@ const Image = ({ className, alt, style, imageName, width, height, format }) => {
         alt={alt}
         plugins={[
           responsive({ steps: [600, 900, 1200, 1536] }),
-          accessibility(),
+          // accessibility(),
           placeholder({ mode: "pixelate" }),
         ]}
       />

@@ -5,7 +5,6 @@ const StyledHero = styled.section`
   min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
-  color: white;
 
   & > *:first-child {
     height: 65vh;
@@ -35,27 +34,29 @@ const StyledHero = styled.section`
     }
 
     .yunikstarz {
-      font-size: 3rem;
+      font-size: 3.5rem;
+      font-weight: 900;
     }
 
     .welcome {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: 500;
     }
 
     p {
       font-size: 0.8rem;
-      font-weight: lighter;
+      font-weight: 400;
       margin: auto;
     }
   }
 
   @media (min-width: 374px) {
     & > *:first-child {
-      height: 75vh;
+      height: 65vh;
     }
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: 600px) {
     flex-direction: row;
     align-items: center;
 
@@ -82,6 +83,10 @@ const StyledHero = styled.section`
 
       .welcome {
         font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.9rem;
       }
     }
 

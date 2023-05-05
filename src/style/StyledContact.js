@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const StyledContact = styled.div`
-  background: #ccccff;
+  .tel {
+    font-weight: 200;
+  }
 `;
 
 export default StyledContact;

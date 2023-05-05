@@ -2,15 +2,17 @@ import { Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import StyledHero from "../style/StyledHero";
-import Background from "../style/Background";
 import Image from "./Image";
 
 const Hero = () => {
   return (
-    <Background>
       <StyledHero id="home">
         <div>
-          <Image imageName="hero/footballer_l7oveg.png" alt="footballer" format="png" />
+          <Image
+            imageName="hero/footballer_l7oveg.png"
+            alt="footballer"
+            format="png"
+          />
         </div>
 
         <Container>
@@ -21,9 +23,11 @@ const Hero = () => {
             </Typography>
 
             <Typography
-              sx={{ color: "black" }}
+              sx={{
+                
+              }}
               component="p"
-              variant="subtitle1"
+              variant="body1"
             >
               We create infinite first class oppurtunities for young in need of
               potential hires from a variety of background.
@@ -31,7 +35,6 @@ const Hero = () => {
           </header>
         </Container>
       </StyledHero>
-    </Background>
   );
 };
 

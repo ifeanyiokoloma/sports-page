@@ -3,13 +3,11 @@ import React from "react";
 import StyledContainer from "../style/StyledContainer";
 import StyledGrid from "../style/StyledGrid";
 import StyledArticle from "../style/StyledArticle";
-import Background from "../style/Background";
 import Gaps from "../style/Gaps";
 import Image from "./Image";
 
 const Performance = () => {
   return (
-    <Background>
       <StyledContainer id="performance">
         <StyledGrid>
           <Gaps>
@@ -72,7 +70,6 @@ const Performance = () => {
           </section>
         </StyledGrid>
       </StyledContainer>
-    </Background>
   );
 };
 

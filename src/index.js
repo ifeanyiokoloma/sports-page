@@ -8,6 +8,9 @@ import "@fontsource/roboto/700.css";
 import "@fontsource/slabo-27px";
 import "@fontsource/tangerine";
 import "@fontsource/lato";
+import "@fontsource/sacramento";
+import "@fontsource/saira/300.css";
+import "@fontsource/saira";
 import NavbarContextProvider from "./contextProviders/Navbar";
 import "./index.css";
 
