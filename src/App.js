@@ -11,13 +11,17 @@ import Contact from "./components/Contact";
 import { ThemeProvider } from "@mui/system";
 import {
   CssBaseline,
+  Fab,
   createTheme,
   responsiveFontSizes,
 } from "@mui/material";
 import { ColorModeContext } from "./context";
 import { useMemo, useState } from "react";
+import ScrollTopBtn from "./components/ScrollTopBtn";
+import { KeyboardArrowUp } from "@mui/icons-material";
+import { motion, useScroll } from "framer-motion";
 
-function App() {
+function App(props) {
   // const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
   const [mode, setMode] = useState("dark");
@@ -70,11 +74,17 @@ function App() {
 
   theme = responsiveFontSizes(theme);
 
+  const { scrollYProgress } = useScroll();
+
   return (
     <ColorModeContext.Provider value={{ colorMode, mode }}>
       <ThemeProvider theme={theme}>
         <CssBaseline enableColorScheme />
         <Layout>
+          <motion.div
+            className="progress-bar"
+            style={{ scaleX: scrollYProgress }}
+          />
           <Hero />
           <About />
           <Contact />
@@ -84,6 +94,11 @@ function App() {
           <Performance />
           <Career />
           <Marketing />
+          <ScrollTopBtn {...props}>
+            <Fab size="small" aria-label="scroll back to top">
+              <KeyboardArrowUp {...props} />
+            </Fab>
+          </ScrollTopBtn>
         </Layout>
       </ThemeProvider>
     </ColorModeContext.Provider>
