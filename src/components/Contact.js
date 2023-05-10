@@ -15,7 +15,19 @@ import {
 
 const Contact = () => {
   return (
-    <BG imagename="https://res.cloudinary.com/kaiserlowe/image/upload/w_auto,c_fill/v1683286448/yunikstarz/contact/contact_nxt5ud.webp">
+    <BG
+      imagename={`https://res.cloudinary.com/kaiserlowe/image/upload/w_${
+        window.innerWidth <= 600
+          ? 700
+          : window.innerWidth <= 900
+          ? 1000
+          : window.innerWidth <= 1200
+          ? 1300
+          : window.innerWidth <= 1536
+          ? 1600
+          : "auto"
+      },c_fill/v1683286448/yunikstarz/contact/contact_nxt5ud.webp`}
+    >
       <StyledContact id="contact">
         <StyledContainer>
           <Box component="section">
@@ -116,7 +128,6 @@ const Contact = () => {
                         <Instagram fontSize="inherit" />
                       </IconButton>
                     </Box>
-                    
                   </Box>
                 </Box>
               </StyledCard>
